@@ -1,6 +1,6 @@
 # TCP Port Fwd
 
-Simple TCP port forwarded written in Rust.
+Simple TCP port forwarder written in Rust.
 
 Uses Tokio async runtime.
 
@@ -12,9 +12,7 @@ target\debug\portfwd.exe [-q|--quiet] [<bind_addr>:]<bind_port>:<dst_addr>:<dst_
 
 ## Prebuilt binaries
 
-Pre-build releases are located in `build` directory.
-
-Stripped / packed with upx.
+Ready to use, stripped / packed with upx binaries are located in `bin` directory.
 
 ### bin/windows/x86_64:
 
